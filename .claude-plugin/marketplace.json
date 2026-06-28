@@ -4,5 +4,16 @@
     "name": "Be Likely United"
   },
   "description": "Open-source Claude Code plugins by Be Likely United.",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "lerret",
+      "source": "./plugins/lerret",
+      "description": "Author and export Lerret design assets from inside Claude Code — your own Claude is the brain, no AI keys.",
+      "version": "0.0.1",
+      "author": { "name": "Be Likely United" },
+      "homepage": "https://lerret.belikely.com",
+      "license": "MIT",
+      "keywords": ["design", "assets", "jsx", "image-generation", "claude-code", "lerret"]
+    }
+  ]
 }

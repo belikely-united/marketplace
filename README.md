@@ -22,7 +22,7 @@ Then browse and install plugins:
 
 The catalog lives in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json). It currently lists:
 
-_(no plugins yet — the first one ships soon)_
+- **[lerret](plugins/lerret/)** — author and export [Lerret](https://lerret.belikely.com) design assets from inside Claude Code; your own Claude is the brain, no AI keys. `/plugin install lerret@belikely-united`
 
 ## Add a new plugin (the workflow)
 
