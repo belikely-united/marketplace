@@ -34,16 +34,18 @@ Add an entry pointing at the plugin's repo:
 
 ```json
 {
-  "name": "graphify",
-  "source": { "source": "github", "repo": "Belikely-United/graphify" },
-  "description": "Turn any folder of code, docs, or media into a navigable knowledge graph.",
+  "name": "example-plugin",
+  "source": { "source": "github", "repo": "Belikely-United/example-plugin" },
+  "description": "What the plugin does, in one line.",
   "version": "1.0.0",
   "author": { "name": "Be Likely United" },
-  "homepage": "https://github.com/Belikely-United/graphify",
+  "homepage": "https://github.com/Belikely-United/example-plugin",
   "license": "MIT",
-  "keywords": ["knowledge-graph", "codebase", "graphrag"]
+  "keywords": ["claude-code", "plugin"]
 }
 ```
+
+Only list plugins **Be Likely United owns**. Don't catalog third-party tools you merely use.
 
 ### B) Plugin lives in this repo (fine for small ones)
 
