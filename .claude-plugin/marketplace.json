@@ -8,8 +8,8 @@
     {
       "name": "lerret",
       "source": "./plugins/lerret",
-      "description": "Design assistant for Claude Code — set up, author, preview live, and export visual assets. Say \"lerret\" to use the agent; your own Claude is the brain, no AI keys.",
-      "version": "0.1.0",
+      "description": "Design assistant for Claude Code — run /lerret to set up, author, preview live, and export visual assets. Your own Claude is the brain, no AI keys.",
+      "version": "0.2.0",
       "author": { "name": "Be Likely United" },
       "homepage": "https://lerret.belikely.com",
       "license": "MIT",
