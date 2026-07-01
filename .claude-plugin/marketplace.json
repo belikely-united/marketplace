@@ -9,7 +9,7 @@
       "name": "lerret",
       "source": "./plugins/lerret",
       "description": "Design assistant for Claude Code — run /lerret to set up, author, preview live (in the preview pane), and export visual assets. Your own Claude is the brain, no AI keys.",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "author": { "name": "Be Likely United" },
       "homepage": "https://lerret.belikely.com",
       "license": "MIT",
