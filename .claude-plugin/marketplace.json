@@ -11,7 +11,7 @@
       "description": "Design assistant for Claude Code — run /lerret to set up, author, preview live (in the preview pane), and export visual assets. Your own Claude is the brain, no AI keys.",
       "version": "0.2.3",
       "author": { "name": "Be Likely United" },
-      "homepage": "https://lerret.belikely.com",
+      "homepage": "https://lerret.io",
       "license": "MIT",
       "keywords": ["design", "assets", "jsx", "image-generation", "claude-code", "lerret"]
     }
