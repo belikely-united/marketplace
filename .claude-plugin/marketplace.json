@@ -17,7 +17,7 @@
     },
     {
       "name": "easyversioning",
-      "source": { "source": "github", "repo": "Belikely-United/EasyVersioning" },
+      "source": { "source": "url", "url": "https://github.com/Belikely-United/EasyVersioning.git" },
       "description": "Saves, syncs and shares work for teams, in plain words, with no Git knowledge needed.",
       "version": "0.1.1",
       "author": { "name": "Be Likely United" },

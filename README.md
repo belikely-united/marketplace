@@ -31,12 +31,12 @@ Whenever a new Be Likely United plugin is created, **register it here** — this
 
 ### A) Plugin lives in its own repo (recommended for anything substantial)
 
-Add an entry pointing at the plugin's repo:
+Add an entry pointing at the plugin's repo by its HTTPS address:
 
 ```json
 {
   "name": "example-plugin",
-  "source": { "source": "github", "repo": "Belikely-United/example-plugin" },
+  "source": { "source": "url", "url": "https://github.com/Belikely-United/example-plugin.git" },
   "description": "What the plugin does, in one line.",
   "version": "1.0.0",
   "author": { "name": "Be Likely United" },
@@ -45,6 +45,8 @@ Add an entry pointing at the plugin's repo:
   "keywords": ["claude-code", "plugin"]
 }
 ```
+
+Use the HTTPS address, not `"source": "github"`. With `"github"`, `/plugin update` downloads over SSH and fails on any computer without a GitHub SSH key. A first install falls back to HTTPS, so the problem only shows up at the first update.
 
 Only list plugins **Be Likely United owns**. Don't catalog third-party tools you merely use.
 
