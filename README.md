@@ -23,6 +23,7 @@ Then browse and install plugins:
 The catalog lives in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json). It currently lists:
 
 - **[lerret](plugins/lerret/)** — author and export [Lerret](https://lerret.io) design assets from inside Claude Code; your own Claude is the brain, no AI keys. `/plugin install lerret@belikely-united`
+- **[easyversioning](https://github.com/Belikely-United/EasyVersioning)** — saves, syncs and shares work for teams, in plain words, with no Git knowledge needed. `/plugin install easyversioning@belikely-united`
 
 ## Add a new plugin (the workflow)
 
