@@ -19,7 +19,7 @@
       "name": "easyversioning",
       "source": { "source": "github", "repo": "Belikely-United/EasyVersioning" },
       "description": "Saves, syncs and shares work for teams, in plain words, with no Git knowledge needed.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": { "name": "Be Likely United" },
       "homepage": "https://github.com/Belikely-United/EasyVersioning",
       "license": "MIT",
