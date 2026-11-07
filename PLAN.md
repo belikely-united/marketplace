@@ -11,9 +11,10 @@ Install it, then install plugins from it:
 /plugin install <plugin-name>@belikely-united
 ```
 
-The catalog is `.claude-plugin/marketplace.json`. It currently lists one plugin:
+The catalog is `.claude-plugin/marketplace.json`. It currently lists two plugins:
 
 - **lerret** — author and export Lerret design assets from Claude Code.
+- **easyversioning** — saves, syncs and shares work for teams, in plain words.
 
 This catalog is MIT. Plugin code is licensed per-plugin.
 
