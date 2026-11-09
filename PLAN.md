@@ -1,8 +1,8 @@
-# Be Likely United marketplace
+# Belikely United marketplace
 
 ## What it is
 
-This repo is the official Claude Code plugin marketplace for Be Likely United.
+This repo is the official Claude Code plugin marketplace for Belikely United.
 
 Install it, then install plugins from it:
 
@@ -26,8 +26,8 @@ nothing tracked here beyond keeping the catalog correct.
 Standing work:
 
 - Keep `.claude-plugin/marketplace.json` accurate — it is the single source of
-  truth for which plugins Be Likely United publishes.
-- Register any new Be Likely United plugin here when it is created, either as a
+  truth for which plugins Belikely United publishes.
+- Register any new Belikely United plugin here when it is created, either as a
   `github` source (plugin in its own repo) or a relative path under `plugins/`.
 - Run `claude plugin validate .` before pushing to `main`; users pick up changes
   with `/plugin marketplace update`.

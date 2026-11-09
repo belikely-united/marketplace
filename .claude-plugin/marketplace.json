@@ -1,16 +1,16 @@
 {
   "name": "belikely-united",
   "owner": {
-    "name": "Be Likely United"
+    "name": "Belikely United LLP"
   },
-  "description": "Open-source Claude Code plugins by Be Likely United.",
+  "description": "Open-source Claude Code plugins by Belikely United LLP.",
   "plugins": [
     {
       "name": "lerret",
       "source": "./plugins/lerret",
       "description": "Design assistant for Claude Code — run /lerret to set up, author, preview live (in the preview pane), and export visual assets. Your own Claude is the brain, no AI keys.",
       "version": "0.2.3",
-      "author": { "name": "Be Likely United" },
+      "author": { "name": "Belikely United LLP" },
       "homepage": "https://lerret.io",
       "license": "MIT",
       "keywords": ["design", "assets", "jsx", "image-generation", "claude-code", "lerret"]
@@ -19,8 +19,8 @@
       "name": "easyversioning",
       "source": { "source": "url", "url": "https://github.com/Belikely-United/EasyVersioning.git" },
       "description": "Saves, syncs and shares work for teams, in plain words, with no Git knowledge needed.",
-      "version": "0.1.1",
-      "author": { "name": "Be Likely United" },
+      "version": "0.1.2",
+      "author": { "name": "Belikely United LLP" },
       "homepage": "https://github.com/Belikely-United/EasyVersioning",
       "license": "MIT",
       "keywords": ["git", "sync", "teams", "versioning", "claude-code", "easyversioning"]

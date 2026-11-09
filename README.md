@@ -1,8 +1,8 @@
-# Be Likely United — Claude Code Marketplace
+# Belikely United — Claude Code Marketplace
 
-The official [Claude Code](https://code.claude.com/docs/en/plugins) plugin marketplace for **Be Likely United**.
+The official [Claude Code](https://code.claude.com/docs/en/plugins) plugin marketplace for **Belikely United**.
 
-One place to discover and install every Be Likely United plugin — knowledge graphs, deep research, and more.
+One place to discover and install every Belikely United plugin — knowledge graphs, deep research, and more.
 
 ## Install the marketplace
 
@@ -27,7 +27,7 @@ The catalog lives in [`.claude-plugin/marketplace.json`](.claude-plugin/marketpl
 
 ## Add a new plugin (the workflow)
 
-Whenever a new Be Likely United plugin is created, **register it here** — this marketplace is the single source of truth. Two patterns:
+Whenever a new Belikely United plugin is created, **register it here** — this marketplace is the single source of truth. Two patterns:
 
 ### A) Plugin lives in its own repo (recommended for anything substantial)
 
@@ -39,7 +39,7 @@ Add an entry pointing at the plugin's repo by its HTTPS address:
   "source": { "source": "url", "url": "https://github.com/Belikely-United/example-plugin.git" },
   "description": "What the plugin does, in one line.",
   "version": "1.0.0",
-  "author": { "name": "Be Likely United" },
+  "author": { "name": "Belikely United LLP" },
   "homepage": "https://github.com/Belikely-United/example-plugin",
   "license": "MIT",
   "keywords": ["claude-code", "plugin"]
@@ -48,7 +48,7 @@ Add an entry pointing at the plugin's repo by its HTTPS address:
 
 Use the HTTPS address, not `"source": "github"`. With `"github"`, `/plugin update` downloads over SSH and fails on any computer without a GitHub SSH key. A first install falls back to HTTPS, so the problem only shows up at the first update.
 
-Only list plugins **Be Likely United owns**. Don't catalog third-party tools you merely use.
+Only list plugins **Belikely United owns**. Don't catalog third-party tools you merely use.
 
 ### B) Plugin lives in this repo (fine for small ones)
 
