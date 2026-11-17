@@ -9,11 +9,11 @@
       "name": "lerret",
       "source": "./plugins/lerret",
       "description": "Design assistant for Claude Code — run /lerret to set up, author, preview live (in the preview pane), and export visual assets. Your own Claude is the brain, no AI keys.",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "author": { "name": "Belikely United LLP" },
       "homepage": "https://lerret.io",
       "license": "MIT",
-      "keywords": ["design", "assets", "jsx", "image-generation", "diagrams", "mermaid", "claude-code", "lerret"]
+      "keywords": ["design", "assets", "jsx", "image-generation", "diagrams", "mermaid", "api-map", "claude-code", "lerret"]
     },
     {
       "name": "easyversioning",
